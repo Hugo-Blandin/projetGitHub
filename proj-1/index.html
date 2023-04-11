@@ -1,0 +1,20 @@
+<div id="app">Pas de rendu de lapplication</div>
+<script crossorigin src="https://unpkg.com/react@18.2.0/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18.2.0/umd/react-dom.development.js"></script>
+<script>
+    const Crypto = () => {
+return React.createElement("div", {}, [
+  React.createElement("h1", {}, "Etherium"),
+  React.createElement("h2", {}, "ETH")
+]);
+};
+
+const App = () => {
+return React.createElement("div", {}, [
+  React.createElement("h1", {}, "Liste des cryptos"),
+  React.createElement(Crypto),
+  React.createElement(Crypto),
+  React.createElement(Crypto),
+]);
+};
+</script>
